@@ -30,7 +30,7 @@ export default function Skills() {
                     <p className="flex items-center justify-end md:justify-start border-t-2 py-2.5 text-2xl">TypeScript</p>
                     <p className="flex items-center justify-end md:justify-start border-t-2 py-2.5 text-2xl">JavaScript</p>
                     <p className="flex items-center justify-end md:justify-start border-t-2 py-2.5 text-2xl">Tailwind CSS</p>   
-                    <p className="flex items-center justify-end md:justify-start border-t-2 py-2.5 text-2xl">Express.js</p>
+                    <p className="flex items-center justify-end md:justify-start border-t-2 py-2.5 text-2xl">Nodejs</p>
                     <p className="flex items-center justify-end md:justify-start border-t-2 py-2.5 text-2xl">Kotlin</p>
                 </div>
                 <div className=' col-start-4 col-span-2 w-full'>

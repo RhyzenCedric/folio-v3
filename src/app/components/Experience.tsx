@@ -40,7 +40,7 @@ export default function Experience() {
                             <li>
                                 <div className='flex items-center gap-x-2 my-2.5'>
                                     <p className='flex-none w-2 h-2 bg-(--foreground) rounded-full '></p>
-                                    <p>Rebuilt portfolio (<a href='https://rhy-folio.vercel.app/' target="_blank" rel="noopener noreferrer" className='font-bold text-(--text-muted) hover:text-(--foreground)'>v2</a> → v3) using Next.js + Tailwind to improve UI structure and responsiveness..</p>
+                                    <p>Rebuilt portfolio (<a href='https://rhy-folio.vercel.app/' target="_blank" rel="noopener noreferrer" className='font-bold text-(--text-muted) hover:text-(--foreground)'>v2</a> → v3) using Next.js + Tailwind to improve UI structure and responsiveness.</p>
                                 </div>
                                 <ul className='pl-5 mt-1 text-sm opacity-80'>
                                     <li>
@@ -75,7 +75,7 @@ export default function Experience() {
                                 <div className='flex items-center gap-x-2 my-2.5'>
                                     <p className='flex-none w-2 h-2 bg-(--foreground) rounded-full '></p>
                                     <p>Junior Web Developer Intern — <a href='https://high6.com/' target="_blank" rel="noopener noreferrer" className='font-bold text-(--text-muted) hover:text-(--foreground)'>High 6</a>; 
-                                    Contributed to production web projects and QA workflows.</p>
+                                    Contributed to web project productions and QA workflows.</p>
                                 </div> 
                                 <ul className='pl-5  mt-1 text-sm opacity-80'>
                                     <li>
@@ -89,7 +89,7 @@ export default function Experience() {
                             <li>
                                 <div className='flex items-center gap-x-2 my-2.5'>
                                     <p className='flex-none w-2 h-2 bg-(--foreground) rounded-full '></p>
-                                    <p>Developed <a href='' target="_blank" rel="noopener noreferrer" className='font-bold text-(--text-muted) hover:text-(--foreground)'>PhisherMan</a>, a phishing-detection mobile app using OCR techniques.</p>
+                                    <p>Developed my capstone project: <a href='' target="_blank" rel="noopener noreferrer" className='font-bold text-(--text-muted) hover:text-(--foreground)'>PhisherMan</a>, a phishing-detection mobile app using OCR techniques.</p>
                                 </div> 
                             </li>
                         </ul>
