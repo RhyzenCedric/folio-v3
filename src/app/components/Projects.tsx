@@ -18,7 +18,7 @@ export default function Projects() {
           </div>
 
           <div className='w-full block sm:hidden'>
-            <h2 className='text-4xl font-medium my-2.5 text-center'>Projects</h2>
+            <h2 className='text-4xl font-medium my-2.5 text-center'>Featured</h2>
           </div>
           
           <div className="flex flex-col justify-center">

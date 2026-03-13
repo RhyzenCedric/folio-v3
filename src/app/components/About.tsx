@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from "next/image";
 import rhyzenpic from "../images/rhyzen.jpg";
-import HolocardSelfie from './ui/HolocardSelfie';
 
 
 export default function About() {
@@ -42,7 +41,6 @@ export default function About() {
           <div className="col-start-4 flex items-center w-full max-w-lg mx-auto sm:px-5">
             <Image src={rhyzenpic} alt="Me" layout="responsive" className="w-full h-full rounded-4xl"/>
           </div>
-          {/* <HolocardSelfie rhyzenpic={rhyzenpic}/> */}
         </div>
     </section>
   )

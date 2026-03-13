@@ -1,4 +1,3 @@
-// "use client";
 import type { Metadata } from "next";
 import { Space_Grotesk, Fira_Code } from "next/font/google";
 import "./globals.css";

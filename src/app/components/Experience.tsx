@@ -34,9 +34,15 @@ export default function Experience() {
                             <li>
                                 <div className='flex items-center gap-x-2 my-2.5'>
                                     <p className='flex-none w-2 h-2 bg-(--foreground) rounded-full '></p>
-                                    <p>Built Moviefy, a music-driven movie recommendation app using Next.js and API integrations.</p>
+                                    <p>Developed <a href='https://welced.vercel.app/' target="_blank" rel="noopener noreferrer" className='font-bold text-(--text-muted) hover:text-(--foreground)'>WelCed</a>, a personal blog site exercising the integration of Supabase and TypeScript.</p>
                                 </div>                              
                             </li>
+                            {/* <li>
+                                <div className='flex items-center gap-x-2 my-2.5'>
+                                    <p className='flex-none w-2 h-2 bg-(--foreground) rounded-full '></p>
+                                    <p>Built Moviefy, a music-driven movie recommendation app using Next.js and API integrations.</p>
+                                </div>                              
+                            </li> */}
                             <li>
                                 <div className='flex items-center gap-x-2 my-2.5'>
                                     <p className='flex-none w-2 h-2 bg-(--foreground) rounded-full '></p>

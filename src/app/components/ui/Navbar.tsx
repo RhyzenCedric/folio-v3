@@ -1,5 +1,5 @@
 "use client";
-import { faFolderOpen, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faBlog, faFolderOpen, faHome, faRss, faUser } from '@fortawesome/free-solid-svg-icons'
 import { faBolt, faBriefcase, faCode, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
@@ -35,6 +35,10 @@ export default function Navbar() {
             <a href='#call-to-action' className='group relative w-fit'>
                 <motion.div whileTap={{scale:0.8}}><FontAwesomeIcon icon={faPhone} className='bg-(--foreground) rounded-2xl p-2 h-10 text-(--background) hover:cursor-pointer transform transition duration-300 hover:scale-125 '/></motion.div>            
                 <p className='lg:block hidden bg-(--foreground) lg:absolute right-full top-1/2 -translate-y-1/2 mr-5 p-3 rounded-2xl opacity-0 font-(--font-fira-code) group-hover:opacity-100 transition duration-200 text-(--background)'>Contact</p>
+            </a>
+            <a href='https://welced.vercel.app/' target="_blank" rel="noopener noreferrer" className='group relative w-fit'>
+                <motion.div whileTap={{scale:0.8}}><FontAwesomeIcon icon={faRss} className='bg-(--foreground) rounded-2xl p-2 h-10 text-(--background) hover:cursor-pointer transform transition duration-300 hover:scale-125 '/></motion.div>            
+                <p className='lg:block hidden bg-(--foreground) lg:absolute right-full top-1/2 -translate-y-1/2 mr-5 p-3 rounded-2xl opacity-0 font-(--font-fira-code) group-hover:opacity-100 transition duration-200 text-(--background)'>WelCed</p>
             </a>
 
             <ThemeButton/>
